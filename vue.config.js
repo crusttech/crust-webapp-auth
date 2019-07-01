@@ -55,6 +55,23 @@ module.exports = {
       options[0][0].ignore.push('config*js')
       return options
     })
+
+    const scssNormal = config.module.rule('scss').oneOf('normal')
+
+    scssNormal.use('sass-loader')
+      .loader('sass-loader')
+      .tap(options => ({
+        ...options,
+        sourceMap: true,
+        sourceMapContents: false,
+      }))
+
+    // Load CSS assets according to their location
+    scssNormal.use('resolve-url-loader')
+      .loader('resolve-url-loader').options({
+        keepQuery: true,
+      })
+      .before('sass-loader')
   },
 
   // devServer Options don't belong into `configureWebpack`

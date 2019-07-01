@@ -11,9 +11,13 @@
   },
   "main": "index.js",
   "dependencies": {
+    "@panter/vue-i18next": "^0.15.1",
     "@vue/eslint-config-standard": "^4.0.0",
+    "bootstrap-vue": "^2.0.0-rc.25",
     "core-js": "^2.6.5",
+    "corteza-webapp-auth": "cortezaproject/corteza-webapp-auth.git#master",
     "corteza-webapp-common": "cortezaproject/corteza-webapp-common.git#master",
+    "resolve-url-loader": "^3.1.0",
     "sinon": "^7.3.2",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
