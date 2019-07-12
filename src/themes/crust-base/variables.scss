@@ -1,0 +1,38 @@
+// Typography
+$font-size-base: 0.85rem !default;
+
+$logo: '/img/logo.png' !default;
+
+// Color system
+$white:         #fff !default;
+$black:         #000 !default;
+$primary:       #1397CB !default;
+$secondary:     #90A3B1 !default;
+$success:       #2FBC95 !default;
+$warning:       #FFCC32 !default;
+$danger:        #E85568 !default;
+$light:         #F3F3F5 !default;
+$dark:          #1e2224 !default;
+
+// Forms
+$input-font-size: $font-size-base;
+$input-btn-focus-width:        0 !default;
+$input-focus-box-shadow:       none !default;
+$input-focus-border-color:     $primary !default;
+
+// Options
+$enable-rounded: false !default;
+
+// Components
+$border-radius: 0 !default;
+
+// Buttons
+$btn-focus-width: 0 !default;
+$btn-focus-box-shadow: none !default;
+$btn-active-box-shadow: none !default;
+
+// Forms
+$input-font-size:              $font-size-base !default;
+$input-btn-focus-width:        0 !default;
+$input-focus-box-shadow:       none !default;
+$input-focus-border-color:     $primary !default;

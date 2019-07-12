@@ -1,10 +1,6 @@
+@import "variables";
 @import "~corteza-webapp-auth/src/themes/corteza-base/index";
 
 div.logo {
-  background: url("img/logo.png") no-repeat center;
-  height: 150px;
-
-  * {
-    display: none;
-  }
+  background-size: contain;
 }
