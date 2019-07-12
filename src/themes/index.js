@@ -1,1 +1,1 @@
-import './crust-base/index.scss'
+import(/* webpackChunkName: 'crust-base' */ './crust-base')

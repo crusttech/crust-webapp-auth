@@ -2683,7 +2683,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 
 corteza-webapp-auth@cortezaproject/corteza-webapp-auth.git#master:
   version "2019.3.2"
-  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-auth/tar.gz/223e159edd2b6b30b3916495a9094760e94123ae"
+  resolved "https://codeload.github.com/cortezaproject/corteza-webapp-auth/tar.gz/e2e8931cb6a7825688b33cd2a014b770e03903a1"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.19"
     "@fortawesome/free-brands-svg-icons" "^5.9.0"
