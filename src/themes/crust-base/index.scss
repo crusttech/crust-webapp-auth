@@ -1,6 +1,14 @@
 @import "variables";
 @import "~corteza-webapp-auth/src/themes/corteza-base/index";
 
+body {
+  background: $light;
+}
+
 div.logo {
   background-size: contain;
+}
+
+.card-footer {
+  display: none;
 }
