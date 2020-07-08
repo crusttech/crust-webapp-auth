@@ -1,6 +1,6 @@
 {
   "name": "crust-webapp-auth",
-  "version": "2019.12.0",
+  "version": "2020.06.0",
   "private": true,
   "description": "Crust Authentication WebApp",
   "scripts": {
@@ -8,25 +8,23 @@
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "cdeps": "yarn upgrade corteza-webapp-common corteza-webapp-auth"
+    "cdeps": "yarn upgrade corteza-webapp-auth"
   },
   "main": "index.js",
   "dependencies": {
-    "corteza-webapp-auth": "cortezaproject/corteza-webapp-auth.git#2019.12.0"
+    "corteza-webapp-auth": "cortezaproject/corteza-webapp-auth.git#2020.06.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-plugin-unit-mocha": "^3.8.0",
-    "@vue/cli-service": "^3.5.0",
-    "@vue/test-utils": "1.0.0-beta.29",
-    "babel-eslint": "^10.0.1",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.25",
     "chai": "^4.1.2",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.12",
+    "node-sass": "4.13.1",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
